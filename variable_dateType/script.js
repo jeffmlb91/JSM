@@ -1,3 +1,5 @@
+// VARIABLES 
+
 // declaring the variable name  
 // We can declare using var, let or const --> We use const and ley
 const variableName = 'This is a variable';
@@ -19,3 +21,32 @@ const $name = "Money";
 
 // we cannot call variable with reserve keywords in javascript
 // we cannot use a variable name multiple time top declare other variables
+
+//DATA TYPES 
+
+//Primitive Data Types:
+//Strings: Letters 
+//Numbers: Whole number or decimal value
+//Booleans: True or false
+//Null: Is Null we have something to store a value in but that value is none existante
+//Undifined: is Undefined, we dont have either the variable or the value (does not exist)
+// Symbol
+// Object: Complex Data Types
+
+//STRING
+const stringType = "Hello world"
+const stringWithSingleQuote = 'Single Quote String'
+const newName= "James"
+const backTicks = `Hello ${stringWithSingleQuote}`
+const firstNumber = 50;
+const secondNumber = 60;
+const addTwoNumber = `${10 + 10}`
+const backTicksWithFunctionality = `The sum of the firstNumber and SecondNumber is equal to ${firstNumber + secondNumber}`
+
+
+
+console.log(stringType);
+console.log(stringWithSingleQuote);
+console.log(backTicks)
+console.log(addTwoNumber)
+console.log(backTicksWithFunctionality);
