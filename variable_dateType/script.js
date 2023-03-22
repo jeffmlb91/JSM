@@ -50,3 +50,36 @@ console.log(stringWithSingleQuote);
 console.log(backTicks)
 console.log(addTwoNumber)
 console.log(backTicksWithFunctionality);
+console.log(typeof stringWithSingleQuote)
+console.log(typeof backTicks)
+console.log(typeof firstNumber)
+
+//NUMBERS 
+// JAvascript is friendly with number cause we cannot specified the type of the number. Ity is called : Untyped
+// Unlike C programming int wholeNUmber = 5 or deciMalNumber = 5.0
+
+const wholeNumber = 5;
+const decimalNumber = 0.5;
+
+console.log(wholeNumber);
+console.log(decimalNumber);
+
+// OPERATION
+
+const firsSmalltNumber = 5;
+const secondSmallNumber = 10;
+const singleQuotes = "Hello"
+
+const result = firsSmalltNumber + secondSmallNumber;
+const secondResult = firsSmalltNumber - secondSmallNumber;
+const thirdResult = firsSmalltNumber / secondSmallNumber;
+const fourthResult = singleQuotes / firsSmalltNumber;
+
+console.log(result);
+console.log(typeof result);
+console.log(secondResult);
+console.log(thirdResult);
+console.log(fourthResult);
+console.log(typeof fourthResult); //result is Number because in computing NaN is a numeric data type whose value cannot be represented as a number
+
+
